@@ -1,8 +1,9 @@
 #include "main.h"
 	/**
 	 * main - print _putchar
-	 * is written by mbah
-	 * Return: 0
+	 * des
+	 * test - this is the function for _putcher
+	 * Return: void
 	 */
 
 
@@ -17,5 +18,5 @@
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-	return (0);
+	return (void);
 	}
