@@ -1,9 +1,7 @@
 #include "main.h"
 	/**
-	 * test - this is the function for _putcher
-	 *
-	 * test - this is the function for _putcher
-	 * Return: void
+	 *main - Entry point
+	 * Return: Always 0
 	 */
 
 
