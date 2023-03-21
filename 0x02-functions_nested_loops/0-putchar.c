@@ -1,7 +1,7 @@
 #include "main.h"
 	/**
-	 * main - print _putchar
-	 * des
+	 * test - this is the function for _putcher
+	 *
 	 * test - this is the function for _putcher
 	 * Return: void
 	 */
@@ -18,5 +18,5 @@
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-	return (void);
+	return (0);
 	}
