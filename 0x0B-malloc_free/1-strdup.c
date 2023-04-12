@@ -4,7 +4,7 @@
 /**
  * _strdup - duplicate to new memory space location
  * @str: char
- * Retrun: 0
+ * Return: 0
  */
 char *_strdup(char *str)
 {
