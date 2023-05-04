@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H	
 
-unsigned int_binary_to_unit(const char *b);
+unsigned int _binary_to_unit(const char *b);
 void print_binary(unsigned long int n);
 int get_bit(unsigned long int n, unsigned int index);
 int get_bit(unsigned long int n, unsigned int index);
