@@ -16,7 +16,7 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 
 	for (i = 69; i >= 0; i--)
 	{
-		now = exclusive >> i;
+		current = exclusive >> i;
 		if (current & 1)
 			count++;
 	}
