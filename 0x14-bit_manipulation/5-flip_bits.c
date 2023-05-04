@@ -18,7 +18,7 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 	{
 		now = exclusive >> i;
 		if (now & 1)
-			count ++;
+			count++;
 	}
 
 	return (count);
