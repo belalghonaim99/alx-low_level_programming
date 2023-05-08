@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
 
 /**
  * read_textfile - read text file to print output
@@ -10,21 +10,23 @@
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	char buf[1024];
-	ssize_t x;
-	ssize_t y;
-	ssize_t w;
+	char *buf;
+	size_t fd;
+	size_t rw;
+	size_t rd;
 
-	x = open(filename, O_RDONLY);
+	fd = open(filename, O_RDONLY);
 
-	if (x == -1)
+	if (fd == -1)
 		return (0);
-	buf = malloc(sizeof(char) * letters);
-	t = read(x, buf, letters);
 
-	y = write(stdout_FILENO, buf, w);
+	buf = malloc(sizeof(char) * letters);
+
+	rd = read(fd, buf, letters);
+
+	rw = write(STDOUT_FILENO, buf, rd);
 
 	free(buf);
-	close(x);
-	return (y);
+	close(fd);
+	return (rw);
 }
