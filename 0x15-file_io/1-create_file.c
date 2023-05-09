@@ -13,7 +13,7 @@ int _strlen(char *s)
 	if (!s)
 		return (0);
 
-	while (*s++)
+	while s[i]
 		i++;
 	return (i);
 }
@@ -39,4 +39,3 @@ int create_file(const char *filename, char *text_content)
 		wr = write(fd, text_content, len);
 	close(fd);
 	return (wr == len ? 1 : -1);
-}
