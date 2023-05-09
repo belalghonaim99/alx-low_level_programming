@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * read_text_file -read the file and print it
+ * read_textfile - read the file and print it
  * @filename: name the file and read it
- * @letters: numbers to read
+ * @letters: numbers to read and print
  *
  * Return: numbers to read and print if 0 means fail
  */
@@ -11,6 +11,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int fd;
 	ssize_t w;
+
 	char buf(READ_BUF_SIZE * 8);
 
 	if (!filename || !letters)
