@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * print_dlistint - prints elemnets 
+ * print_dlistint - prints elemnets
  * @h:  points to the previous node
  * Return: numbers of nodes.
  **/
