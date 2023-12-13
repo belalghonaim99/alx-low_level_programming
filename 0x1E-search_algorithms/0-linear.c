@@ -5,6 +5,10 @@
  *  size is the number of elements in array
  *  If value is not present in array or if array is NULL,
  *  your function must return -1
+ * @array: array is a pointer
+ * @size: size of the array 
+ * @value: value of the array
+ * @return: first index
  */
 int linear_search(int *array, size_t size, int value)
 {
