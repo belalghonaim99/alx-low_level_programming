@@ -1,4 +1,5 @@
 #include "search_algos.h"
+
 /**
  * linear_search - searching for the value in array
  *  size is the number of elements in array
