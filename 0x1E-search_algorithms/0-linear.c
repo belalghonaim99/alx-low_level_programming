@@ -1,14 +1,14 @@
 #include "search_algos.h"
 
 /**
- * Prototype : int linear_search(int *array, size_t size, int value);
+ * linear_search - searching for the value in array
  *  size is the number of elements in array
  *  If value is not present in array or if array is NULL,
  *  your function must return -1
  * @array: array is a pointer
- * @size: size of the array 
+ * @size: size of the array
  * @value: value of the array
- * @return: first index
+ * Return: Always EXIT_SUCCESS
  */
 int linear_search(int *array, size_t size, int value)
 {
